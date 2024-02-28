@@ -12,8 +12,8 @@
 // console.log("I am Jadugaar");
 
 // But when we write the same code asynchronously then we get a intresting output
-const fs = require("fs");
-let text2 = fs.readFile("practice2.txt" , "utf-8" , ((err , data)=>{
+const fs2 = require("fs");
+let text2 = fs2.readFile("practice2.txt" , "utf-8" , ((err , data)=>{
     console.log(data);
 }));
 // console.log(text2);
